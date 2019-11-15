@@ -1,0 +1,392 @@
+body{
+	margin-top:10px;
+	padding:0;
+	background-image: url(images/fbackimg.jpg);
+	background-repeat: repeat;
+    background-attachment: fixed;
+	background-position: center;
+	font-family: "Trebuchet MS", Lucida Console, Helvetica, serif;
+	font-size: 1em;
+	color: #ffffff;
+    
+}
+
+h1, h2, h3 {
+	
+	margin: 0;
+	font-weight: bold;
+	color: #559106;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 15px;
+}
+
+a:link {
+	color: #4E8006;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	font-variant:small-caps;
+	font-size:10px;
+	color: #4E8006;
+}
+
+a:visited {
+	color: #4E8006;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+
+
+form {
+	size: 5px;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #333333;
+}
+
+#header {
+	width: 630px;
+	height: 50px;
+	margin: 0 auto;
+	border-radius: 25px;
+	background-color: #009900;
+}
+
+#menu {
+	float: left;
+	width: 860px;
+	height: 50px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 12px 20px;
+	letter-spacing: -.5px;
+	text-decoration: none;
+	font: 16px "Trebuchet MS", Georgia, Times, sans-serif;
+	font-weight: bolder;
+	color: #333333;
+}
+
+#menu a:hover { 
+	text-decoration: none; 
+	font-variant:small-caps;
+	color: #cc3300;
+}
+
+#menu .current_page_item a {
+	color: #ffffff;
+}
+
+#page {
+	width: 900px;
+	margin: 50px 50px;
+}
+#pages {
+	width: 50vw;
+	margin:0 px auto;
+	padding: 0px;
+}
+
+#page1{
+	width: 500px;
+	margin: 50px 25%;
+}
+
+#content {
+	float: right;
+	width: 300px;
+}
+#contents
+{
+	float: left;
+	width: 500px;
+	margin-left: 600px;
+}
+#logo-name{
+	font-family: Park Lane NF;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+.posts2{
+	width: 700px;
+	padding: 0px;
+	height: auto;
+	margin-top: 0px;
+}
+.posts2 .entries{
+	font-size: 30px;
+	margin-left: 0px auto;
+}
+.posts2 .title{
+	color: 00B465;
+}
+.posts2 .entries #tab{
+	font-size: 17px;
+
+}
+.posts2 .entries #form{
+	font-size: 20px;
+}
+.posts2 .entries #tab input{
+	font-family: Times New Roman;
+}
+
+.posts2 .entries #tab a{
+	color:#ce2006;
+	font-style: oblique;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Times New Roman;
+}
+.posts2 .entries #tab a:hover{
+	text-decoration: none;
+	font-size:80px;
+	color: #4E8006;
+
+}
+
+.post {
+	padding: 0;
+	margin-bottom: 0px auto;
+}
+.post .title {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+.post .entries{
+	font-family: Segoe UI Black;
+	font-weight: bold;
+	padding: 0;
+	margin-bottom: 0px auto;
+	font-size: 30px;
+	width: 500px;
+
+}
+.post .entries form {
+	width: 700px;
+	padding:0px auto;
+	size: 15px;
+	margin: 00px auto;
+}
+.post .entry{
+	font-family: Segoe UI Black;
+	font-weight: bold;
+	padding: 0;
+	margin-bottom: 0px auto;
+	font-size: 30px;
+	width: 700px;
+}
+.post .entry form {
+	width: 700px;
+	padding:0px auto;
+	size: 15px;
+	margin: 10px auto;
+}
+.post .entry b{
+	font-size: 25px;
+	padding: 0px auto;
+	margin: 0px auto;
+}
+.post .entry a:hover,a:active {
+	text-decoration: none; 
+	font-size: 20px;
+	color: #cc3300;
+}
+}
+.post h1 {
+}
+
+.post h2 {
+	height: 32px;
+	padding: 8px 0 0 15px;
+	background: url(images/post.jpg) no-repeat left top;
+	font-size: 18px;
+	color: #DADADA;
+}
+
+#sidebar {
+	float: right;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 70px;
+
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin-bottom: 15px;
+	padding: 0 0 5px ;
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+	margin: 0;
+	padding-left: 15px;
+}
+
+#sidebar h2 {
+	height: 32px;
+	width: 120px;
+	padding: 8px 0 0 15px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #559106;
+	background-image: url("images/post.jpg");
+	border-radius: 50px;
+}
+
+
+
+
+#footer-wrap {
+	width: 860px;
+	height: 64px;
+	margin: 0 auto;
+	background: url(images/footer.jpg) no-repeat left top;
+	border-radius: 300px;
+}
+
+#search {
+}
+
+#search h2 {
+	margin-bottom: 20px;
+}
+
+#s {
+	width: 115px;
+	margin-right: 5px;
+	padding: 3px;
+	border: 1px solid #BED99C;
+}
+
+#x {
+	padding: 3px;
+	border: none;
+	background: #467805;
+	
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+
+#footer {
+	margin: 0 auto;
+	height: 64px;
+	min-height: 64px;
+	padding: 0;
+}
+
+html>body #footer {
+	height: auto;
+}
+
+#footer p {
+}
+
+#legal {
+	clear: both;
+	padding-top: 10px;
+	padding-right: 60px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#legal a {
+	color: #33ff99;
+}
+
+#legal a:hover,a:active{
+	text-decoration: none;
+	font-variant:small-caps;
+	font-size:20px;
+	color: #33ff99;
+
+}
+
+
+/**LOGO*/
+
+#logo-wrap {
+	width: 1000px;
+	height: 220px;
+	margin: 50px 25%;
+	padding:0 auto;
+	background: url(images/FLIX.jpg) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+}
